@@ -9,6 +9,7 @@
     tools:context=".SingUp">
 
     <ImageView
+
         android:layout_width="81dp"
         android:layout_height="64dp"
         android:src="@drawable/whats" />
@@ -19,6 +20,11 @@
         android:layout_gravity="center"
         android:backgroundTint="#6103554D"
         app:cardCornerRadius="200dp">
+
+        <ImageView
+            android:id="@+id/imageVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
 
 
@@ -107,7 +113,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/emailEt"
+            android:id="@+id/emailSup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
@@ -131,7 +137,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/phoneEt"
+            android:id="@+id/phoneSup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
@@ -155,7 +161,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/passET"
+            android:id="@+id/passSup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
@@ -179,7 +185,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/passEt"
+            android:id="@+id/passwSup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
@@ -209,7 +215,7 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/singbutton"
+        android:id="@+id/buttonsup"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="Sing_Up"
