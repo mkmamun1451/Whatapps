@@ -32,13 +32,13 @@ public class Loging extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loging);
 
+        getSupportActionBar().hide();
+
        button = findViewById(R.id.matebutton);
        forgetTv = findViewById(R.id.forgetTv);
        signupTv = findViewById(R.id.singupTv);
        numberEt = findViewById(R.id.numberEt);
        passwordEt = findViewById(R.id.passEt);
-       facebookTv = findViewById(R.id.faceTv);
-       googleTv = findViewById(R.id.googleTv);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

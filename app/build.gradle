@@ -41,10 +41,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:21.0.6'
     implementation 'com.google.firebase:firebase-database:20.0.5'
     implementation 'com.google.firebase:firebase-firestore:24.2.1'
-    implementation 'com.google.firebase:firebase-messaging:23.0.6'
+
     implementation 'com.google.firebase:firebase-storage:20.0.1'
     implementation 'com.google.firebase:firebase-functions:20.1.0'
-    implementation 'com.google.firebase:firebase-inappmessaging-display:20.1.2'
+
 
 
     testImplementation 'junit:junit:4.13.2'

@@ -21,6 +21,8 @@ public class SingUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sing_up);
 
+        getSupportActionBar().hide();
+
         buttonSp = findViewById(R.id.buttonsup);
         numberSp = findViewById(R.id.phoneSup);
         emailSp = findViewById(R.id.emailSup);
