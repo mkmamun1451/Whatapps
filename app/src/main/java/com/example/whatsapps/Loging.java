@@ -12,6 +12,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class Loging extends AppCompatActivity {
 
 
@@ -19,6 +22,10 @@ public class Loging extends AppCompatActivity {
     private TextView forgetTv, signupTv;
     private EditText numberEt,passwordEt;
     private ImageView facebookTv,googleTv;
+    private FirebaseAuth auth;
+    private FirebaseDatabase database;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
