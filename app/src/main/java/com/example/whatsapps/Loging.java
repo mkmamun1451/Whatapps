@@ -18,10 +18,9 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Loging extends AppCompatActivity {
 
 
-    private Button button;
+    private Button button, fbbutton,gbutton;
     private TextView forgetTv, signupTv;
     private EditText numberEt,passwordEt;
-    private ImageView facebookTv,googleTv;
     private FirebaseAuth auth;
     private FirebaseDatabase database;
 
@@ -39,6 +38,8 @@ public class Loging extends AppCompatActivity {
        signupTv = findViewById(R.id.singupTv);
        numberEt = findViewById(R.id.numberEt);
        passwordEt = findViewById(R.id.passEt);
+        gbutton = findViewById(R.id.btgoogle);
+        fbbutton = findViewById(R.id.btfacebook);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
